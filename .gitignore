@@ -2,7 +2,10 @@
 **.jar
 **.log
 
-lib
+**trash
+
+**lib
+
 **backup**
 
 save_eec_ltlbiomassTons.nc
