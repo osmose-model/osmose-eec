@@ -12,11 +12,9 @@ osmose.configuration.initialization;eec_param-init-pop.csv
 osmose.configuration.migration;eec_param-out-mortality.csv
 osmose.configuration.output;eec_param-output_papierTROPHIC.csv
 osmose.configuration.mortality.additional;eec_param-additional-mortality_2Phase.csv
-#osmose.configuration.mortality.fishery;fishing/eec_param-fishery_2Phase.csv
-;
-# Osmose 4.2.2 - Deprecated parameter mortality.algorithm
-# mortality.algorithm;stochastic
+
 mortality.subdt;10
+
 simulation.nschool.sp0;21
 simulation.nschool.sp1;35
 simulation.nschool.sp2;23
@@ -31,11 +29,9 @@ simulation.nschool.sp10;29
 simulation.nschool.sp11;16
 simulation.nschool.sp12;25
 simulation.nschool.sp13;28
-;
-# Osmose 4.2.6 - Updated parameter osmose.version to 4.2.6
+
 osmose.version;4.3.0
 
 #osmose.configuration.regional;regional_outputs/regional.csv
 #osmose.configuration.surveys;regional_outputs/surveys.csv
-
 osmose.configuration.background;eec_param-background.csv
