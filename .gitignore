@@ -11,3 +11,5 @@
 save_eec_ltlbiomassTons.nc
 
 output-PAPIER-trophic
+**/fisheries_checks
+**/parameter_test
