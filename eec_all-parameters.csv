@@ -34,4 +34,4 @@ osmose.version;4.3.0
 
 #osmose.configuration.regional;regional_outputs/regional.csv
 #osmose.configuration.surveys;regional_outputs/surveys.csv
-osmose.configuration.background;eec_param-background.csv
+#osmose.configuration.background;eec_param-background.csv
