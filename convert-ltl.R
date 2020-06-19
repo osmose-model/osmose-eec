@@ -3,11 +3,14 @@ library("ncdf4")
 setwd("/home/barrier/Codes/osmose/git-eec-config")
 
 filename = '/home/barrier/Codes/osmose/old_svn/svn-osmose/branches/config/eec/eec_v3u2/eec_ltlbiomass.nc'
+filename = 'morgane-biomass-datarmor.nc'
 varlon = 'longitude'
 varlat = 'latitude'
 varname = 'ltl_biomass'
 vartime = 'time'
 absolute = TRUE
+outputfile = 'corrected-ltl-file.nc'
+
 outvarnames = c(
 'Dinoflagellates',
  'Diatoms',
@@ -89,7 +92,7 @@ list_vars[[n_ltl_file + 1]] = ncvar_def("longitude", "", dimcoords, longname="lo
 list_vars[[n_ltl_file + 2]] = ncvar_def("latitude", "", dimcoords, longname="latitude")
 
 # Opens the output NetCDF file
-ncout = nc_create("output-file.nc", list_vars)
+ncout = nc_create(outputfile, list_vars)
 
 # loops over all the LTL classes and write data into 
 # the file
