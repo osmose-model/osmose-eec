@@ -1,6 +1,8 @@
 **.sh
 **.jar
 **.log
+**.pdf
+**.png
 
 **trash
 
@@ -13,3 +15,9 @@ save_eec_ltlbiomassTons.nc
 output-PAPIER-trophic
 **/fisheries_checks
 **/parameter_test
+
+morgane-outputs
+morgane-biomass-datarmor.nc
+**.swp
+old_ltlbiomass.nc
+plot_outputs.py
