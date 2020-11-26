@@ -5,6 +5,9 @@ output.start.year;100;
 
 output.fishery.enabled;true
 
+output.isotopes.enabled;true
+output.isotopes.firstyear;0
+
 ;;;
 output.cutoff.age.sp0;0.5;;
 output.cutoff.age.sp1;0.5;;
