@@ -50,23 +50,52 @@ fisheries.rate.base.fsh11;0.156
 fisheries.rate.base.fsh12;0.03
 fisheries.rate.base.fsh13;0.036
 
+fisheries.rate.byperiod.fsh0;1
+fisheries.rate.byperiod.fsh1;1
+fisheries.rate.byperiod.fsh2;1
+fisheries.rate.byperiod.fsh3;1
+fisheries.rate.byperiod.fsh4;1
+fisheries.rate.byperiod.fsh5;1
+fisheries.rate.byperiod.fsh6;1
+fisheries.rate.byperiod.fsh7;1
+fisheries.rate.byperiod.fsh8;1
+fisheries.rate.byperiod.fsh9;1
+fisheries.rate.byperiod.fsh10;1
+fisheries.rate.byperiod.fsh11;1
+fisheries.rate.byperiod.fsh12;1
+fisheries.rate.byperiod.fsh13;1
+
 ######################################## Fseason
 
 # Defaults: fisheries have only one fishing season
-fisheries.season.number.fsh0;1
-fisheries.season.number.fsh1;1
-fisheries.season.number.fsh2;1
-fisheries.season.number.fsh3;1
-fisheries.season.number.fsh4;1
-fisheries.season.number.fsh5;1
-fisheries.season.number.fsh6;1
-fisheries.season.number.fsh7;1
-fisheries.season.number.fsh8;1
-fisheries.season.number.fsh9;1
-fisheries.season.number.fsh10;1
-fisheries.season.number.fsh11;1
-fisheries.season.number.fsh12;1
-fisheries.season.number.fsh13;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh0 into fisheries.period.number.fsh0
+fisheries.period.number.fsh0;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh1 into fisheries.period.number.fsh1
+fisheries.period.number.fsh1;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh2 into fisheries.period.number.fsh2
+fisheries.period.number.fsh2;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh3 into fisheries.period.number.fsh3
+fisheries.period.number.fsh3;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh4 into fisheries.period.number.fsh4
+fisheries.period.number.fsh4;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh5 into fisheries.period.number.fsh5
+fisheries.period.number.fsh5;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh6 into fisheries.period.number.fsh6
+fisheries.period.number.fsh6;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh7 into fisheries.period.number.fsh7
+fisheries.period.number.fsh7;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh8 into fisheries.period.number.fsh8
+fisheries.period.number.fsh8;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh9 into fisheries.period.number.fsh9
+fisheries.period.number.fsh9;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh10 into fisheries.period.number.fsh10
+fisheries.period.number.fsh10;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh11 into fisheries.period.number.fsh11
+fisheries.period.number.fsh11;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh12 into fisheries.period.number.fsh12
+fisheries.period.number.fsh12;1
+# Osmose 4.3.3 - Renamed parameter fisheries.season.number.fsh13 into fisheries.period.number.fsh13
+fisheries.period.number.fsh13;1
 
 # Defaults: fisheries season equals 1
 fisheries.rate.bySeason.fsh0;1
@@ -85,20 +114,34 @@ fisheries.rate.bySeason.fsh12;1
 fisheries.rate.bySeason.fsh13;1
 
 # Seasons start at 0.
-fisheries.season.start.fsh0;0
-fisheries.season.start.fsh1;0
-fisheries.season.start.fsh2;0
-fisheries.season.start.fsh3;0
-fisheries.season.start.fsh4;0
-fisheries.season.start.fsh5;0
-fisheries.season.start.fsh6;0
-fisheries.season.start.fsh7;0
-fisheries.season.start.fsh8;0
-fisheries.season.start.fsh9;0
-fisheries.season.start.fsh10;0
-fisheries.season.start.fsh11;0
-fisheries.season.start.fsh12;0
-fisheries.season.start.fsh13;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh0 into fisheries.period.start.fsh0
+fisheries.period.start.fsh0;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh1 into fisheries.period.start.fsh1
+fisheries.period.start.fsh1;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh2 into fisheries.period.start.fsh2
+fisheries.period.start.fsh2;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh3 into fisheries.period.start.fsh3
+fisheries.period.start.fsh3;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh4 into fisheries.period.start.fsh4
+fisheries.period.start.fsh4;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh5 into fisheries.period.start.fsh5
+fisheries.period.start.fsh5;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh6 into fisheries.period.start.fsh6
+fisheries.period.start.fsh6;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh7 into fisheries.period.start.fsh7
+fisheries.period.start.fsh7;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh8 into fisheries.period.start.fsh8
+fisheries.period.start.fsh8;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh9 into fisheries.period.start.fsh9
+fisheries.period.start.fsh9;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh10 into fisheries.period.start.fsh10
+fisheries.period.start.fsh10;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh11 into fisheries.period.start.fsh11
+fisheries.period.start.fsh11;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh12 into fisheries.period.start.fsh12
+fisheries.period.start.fsh12;0
+# Osmose 4.3.3 - Renamed parameter fisheries.season.start.fsh13 into fisheries.period.start.fsh13
+fisheries.period.start.fsh13;0
 
 ######################################## Seasonality
 
