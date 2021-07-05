@@ -30,7 +30,9 @@ simulation.nschool.sp11;16
 simulation.nschool.sp12;25
 simulation.nschool.sp13;28
 
-osmose.version;4.3.1
+# Osmose 4.3.2 - Updated parameter osmose.version to 4.3.2
+# Osmose 4.3.3 - Updated parameter osmose.version to 4.3.3
+osmose.version;4.3.3
 
 #osmose.configuration.regional;regional_outputs/regional.csv
 #osmose.configuration.surveys;regional_outputs/surveys.csv
