@@ -1,9 +1,10 @@
 output.dir.path;output-PAPIER-trophic;
 output.file.prefix;eec;
 output.recordfrequency.ndt;24;
-output.start.year;100;
+output.start.year;0;
 
 output.fishery.enabled;true
+output.nschool.enabled;false
 
 ;;;
 output.cutoff.age.sp0;0.5;;
