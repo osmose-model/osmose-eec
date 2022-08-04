@@ -21,3 +21,7 @@ morgane-biomass-datarmor.nc
 **.swp
 old_ltlbiomass.nc
 plot_outputs.py
+
+**/*ipynb*
+movement_checks
+profiles.txt
